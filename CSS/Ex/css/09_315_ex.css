@@ -1,0 +1,10 @@
+body {
+  background: url(../img/mic.jpg) repeat left bottom fixed;
+  margin: 0px;
+}
+.container_1 {
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+}

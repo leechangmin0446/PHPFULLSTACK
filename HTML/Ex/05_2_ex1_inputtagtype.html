@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>고객정보</legend>
+            <label for="id">ID</label>
+            <input type="text" required autofocus placeholder="10자 이내로 입력하시오."><br>
+            <!--requied = 필수입력사항, placeholder = 입력양식 같은거 표시할떄-->
+            <label for="pw">PW</label>
+            <input type="password" name="pw" id="pw"><br>
+            <label for="readonly">참조사항</label>
+            <input type="text" readonly value="참조"><br>
+            <ul>
+                <li>
+                    <label for="sb">딸기</label>
+                    <input value="1" type="checkbox" name="sb" id="sb">
+                </li>
+                <li>
+                    <label for="banana">바나나</label>
+                    <input checked value="2" type="checkbox" name="banana" id="banana">
+                </li>
+                <li>
+                    <label for="wm">수박</label>
+                    <input value="3" type="checkbox" name="wm" id="wm"><br><br>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="r_sb">딸기</label>
+                    <input value="sw" type="radio" name="fruit" id="r_sb">
+                </li>
+                <li>
+                    <label for="r_banana">바나나</label>
+                    <input value="banana" type="radio" name="fruit" id="r_banana">
+                </li>
+                <li>
+                    <label for="r_wm">수박</label>
+                    <input checked value="wm" type="radio" name="fruit" id="r_wm"><br><br>
+                </li>
+                </ul>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

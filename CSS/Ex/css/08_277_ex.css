@@ -1,0 +1,34 @@
+.container{
+    width: 1200px;
+    margin: 20px auto
+}
+.hd {
+    width: 100%;
+    height: 120px;
+    background-color: #808080;
+    
+}
+.sb_1 {
+    width: 250px;
+    height: 600px;
+    background-color: #00ffff;
+    float: left;
+}
+.bm {
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+}
+.sb_2 {
+    width: 150px;
+    height: 600px;
+    background-color: #00ffff;
+    float: right;
+}
+.ft {
+    width: 100%;
+    height: 100px;
+    background-color: #808080;
+    clear: left;
+}

@@ -1,0 +1,39 @@
+.con {
+    border: 1px dotted #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 10px auto;
+    padding: 25px;
+    width: 600px;
+}
+span {
+    font-weight: 900;
+}
+.con_2 {
+    border: 1px dotted #000000;
+    margin: 10px auto;
+    padding: 25px;
+    width: 600px;
+}
+.con_3 {
+    border: 1px dotted #000000;
+    margin: 10px auto;
+    padding: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 600px;
+}
+table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+
+ul {
+    list-style-type: decimal;
+}
+.dd_1 {
+    background-color: #b1adad;
+}

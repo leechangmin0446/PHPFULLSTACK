@@ -1,0 +1,23 @@
+h1 {
+    color: #870c0c;
+    border: 3px solid; display: inline; border-color: orange;
+}
+h2 {
+    color: #073ff5;
+    border: 3px solid; display: inline; border-color: orange;
+}
+ol {
+    color: #03942a;
+    
+}
+
+    
+
+table {
+    border: 1px solid; 
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid;
+    padding: 10px;
+}

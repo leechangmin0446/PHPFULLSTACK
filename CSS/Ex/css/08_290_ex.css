@@ -1,0 +1,42 @@
+div {
+  position: relative;
+}
+article {
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid rgb(209, 208, 208);
+}
+footer {
+  clear: left;
+  width: 1145px;
+  height: 30px;
+  background-color: black;
+  color: beige;
+  text-align: center;
+  position: absolute;
+  top: 730px;
+  margin: 20px;
+}
+.ar_1 {
+  position: absolute;
+}
+.ar_2 {
+  position: absolute;
+
+  left: 600px;
+}
+.ar_3 {
+  position: absolute;
+  top: 400px;
+}
+.ar_4 {
+  position: absolute;
+  top: 400px;
+  left: 600px;
+}
+h1 {
+  margin: 20px;
+}

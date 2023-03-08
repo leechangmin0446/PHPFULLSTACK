@@ -1,0 +1,27 @@
+.p_2 {
+     background-color: #000000; color: #ffffff; font-size: 1.2em; line-height: 2em;
+}
+h2 {
+    color: #ff0000; font-size: 1.5em; text-align: center;
+}
+.p_3 {
+    font-size: 1.2em; text-align: center; font-weight: 900; font-size: 1.2em; line-height: 2em;
+}
+.accent { 
+    color: #0000ff;
+}
+.smalltext {
+    font-size: 0.7em;
+}
+.p_1 {
+    color: #ffa500; font-size: 1.2em; line-height: 2em;
+}
+.container {
+    background-color: #777575; padding:  20px;
+}
+h1 {
+    color: #ffffff; padding: 50px;
+}
+body {
+    border: 1px dotted #000000;
+}
