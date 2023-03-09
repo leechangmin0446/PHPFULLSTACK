@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+li {
+  background-color: #ccc7c7;
+  display: inline-block;
+  float: left;
+  border: 1px solid black;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  box-shadow: 2px 2px 3px;
+}
+.li_1:hover {
+  background-color: #555;
+  color: #fff;
+}
+.li_2:hover {
+  background-color: #b30000;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}

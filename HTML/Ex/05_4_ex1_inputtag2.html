@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="">
-        <label for="textbox">메모</label>
-        <textarea name="memo" id="textbox" cols="30" rows="20"></textarea>
-        <br><br><br>
-        <select name="select" id="select" size="3" multiple>
-            <option value="0">탕수육</option>
-            <option value="1">짜장면</option>
-            <option value="2">커피</option>
-            <option value="3" selected>밥</option>
-            <!--selected = checked와 비슷한 기능-->
-
-        </select>
-        <br><br><br>
-        <label for="cook">요리</label>
-        <input type="text" id="cook" list="datalist">
-        <datalist name="datalist" id="datalist">
-            <option value="0">밥</option>
-            <option value="1">돈까스</option>
-            <option value="2">물</option>
-        </datalist>
-        <!--datalist는 잘 안씀-->
-        <br><br>
-        <button type="submit">submit</button>
-        <button type="reset">reset</button>
-        <button type="button">button</button>
-        <!--input보다 접근성이 좋음-->
+      <label for="textbox">메모</label>
+      <textarea name="memo" id="textbox" cols="30" rows="20"></textarea>
+      <br /><br /><br />
+      <select name="select" id="select" size="3" multiple>
+        <option value="0">탕수육</option>
+        <option value="1">짜장면</option>
+        <option value="2">커피</option>
+        <option value="3" selected>밥</option>
+        <!--selected = checked와 비슷한 기능-->
+      </select>
+      <br /><br /><br />
+      <label for="cook">요리</label>
+      <input type="text" id="cook" list="datalist" />
+      <datalist name="datalist" id="datalist">
+        <option value="0">밥</option>
+        <option value="1">돈까스</option>
+        <option value="2">물</option>
+      </datalist>
+      <!--datalist는 잘 안씀-->
+      <br /><br />
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+      <button type="button">button</button>
+      <!--input보다 접근성이 좋음-->
     </form>
-
-</body>
+  </body>
 </html>
