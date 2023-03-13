@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  color: white;
+  height: 300px;
+  padding: 50;
+}
+article {
+  text-align: end;
+  position: relative;
+  padding: 20px
+  top: 20px;
+}
+h1 {
+  font-size: 5vw;
+}
+ul {
+  margin: 10px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+li {
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 5px;
+}
+figure {
+  position: relative;
+}
+img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 5px;
+  
+}
+h3 {
+  position: relative;
+  bottom: 90px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 30%);
+  color: white;
+  height: 45px;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  background-color: goldenrod;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+  
+}
+
+a:hover {
+  background-color: rgb(218, 165, 32, 50%);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
+}
